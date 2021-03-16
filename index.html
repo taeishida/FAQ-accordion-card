@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap">
+  <link rel="stylesheet" href="stylesheet.css">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    
+    <div class="images">
+      <img class="box" src="./images/illustration-box-desktop.svg" alt="box">
+      <img class="woman" src="./images/illustration-woman-online-desktop.svg" alt="woman-desktop">
+    </div>
+
+    <div class="mobile-images">
+      <img class="mobile-woman" src="./images/illustration-woman-online-mobile.svg" alt="woman-online">
+      <img class="mobile-pattern" src="./images/bg-pattern-mobile.svg" alt="bg-pattern-mobile">
+    </div>
+
+    <div class="faq">
+      <div class="title">FAQ</div>
+
+      <div id="accordion">
+          <div class="panel active"> 
+            <div class="acc-q">
+              <div class="questions">How many team members can I invite?</div>
+              <img class="icon" src="./images/icon-arrow-down.svg" alt="icon-arrow-down">
+            </div>
+            <div class="acc-a">You can invite up to 2 additional users on the Free plan. There is no limit on 
+              team members for the Premium plan.</div>
+          </div>
+
+          <div class="panel"> 
+            <div class="acc-q">
+              <div class="questions">What is the maximum file upload size?</div>
+              <img class="icon" src="./images/icon-arrow-down.svg" alt="icon-arrow-down">
+            </div>
+            <div class="acc-a">No more than 2GB. All files in your account must fit your allotted storage space.</div>
+          </div>
+
+          <div class="panel"> 
+            <div class="acc-q">
+              <div class="questions">How do I reset my password?</div>
+              <img class="icon" src="./images/icon-arrow-down.svg" alt="icon-arrow-down">
+            </div>
+            <div class="acc-a">Click “Forgot password” from the login page or “Change password” from your profile page.
+              A reset link will be emailed to you.</div>
+          </div>
+
+          <div class="panel"> 
+            <div class="acc-q">
+              <div class="questions">Can I cancel my subscription?</div>
+              <img class="icon" src="./images/icon-arrow-down.svg" alt="icon-arrow-down">
+            </div>
+            <div class="acc-a">Yes! Send us a message and we’ll process your request no questions asked.</div>
+          </div>
+
+          <div class="panel"> 
+            <div class="acc-q">
+              <div class="questions">Do you provide additional support?</div>
+              <img class="icon" src="./images/icon-arrow-down.svg" alt="icon-arrow-down">
+            </div>
+            <div class="acc-a">Chat and email support is available 24/7. Phone lines are open during normal business hours.
+            </div>
+          </div>
+      </div>
+
+    </div>
+
+  </div>
+  
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/taeishida">Tae Ishida</a>.
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
